@@ -1,1 +1,4 @@
 A javascript extension to allow formatting of Date object like in Ruby's strftime.
+
+Documentation http://www.ruby-doc.org/core/classes/Time.html#M000392
+
