@@ -2,3 +2,5 @@ A javascript extension to allow formatting of Date object like in Ruby's strftim
 
 Documentation http://www.ruby-doc.org/core/classes/Time.html#M000392
 
+It's simple:
+    new Date().format("%H:%M on %d/%m") returns "08:20 on 26/04"
