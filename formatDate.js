@@ -90,8 +90,8 @@
         case "w": return padNumber(this.getDay(), 2);
         case "x": return this.toLocaleDateString();
         case "X": return this.toLocaleTimeString();
-        case "y": return String(this.getYear()).substring(2);
-        case "Y": return this.getYear();
+        case "y": return String(this.getFulYear()).substring(2);
+        case "Y": return this.getFulYear();
         case "z": return timeZoneOffset(this);
         default: return match;
       }
